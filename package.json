@@ -1,10 +1,10 @@
 {
-  "homepage": "https://kimcg89.github.io/movie-app",
+  "homepage": "https://kimcg89.github.io/movie-app/",
   "name": "movie-app",
   "version": "1.0.0",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "parcel ./index.html",
     "build": "parcel build ./index.html",
     "vercel": "vercel dev"
