@@ -125,8 +125,8 @@ class e{constructor(e={}){let{tagName:t="div",props:s={},state:a={}}=e;this.el=d
       <p><a href="${i}" target="_blank">Blog</a></p>
     `}}},{path:".*",component:class extends e{render(){this.el.classList.add("container","not-found"),this.el.innerHTML=`
       <h1>
-        Sorry.., <br />
+        Sorry., <br />
         Page Not Found
       </h1>
     `}}}],function(){window.addEventListener("popstate",()=>{t(i)}),t(i)});document.querySelector("#root").append(new class extends e{render(){let e=new a().el,t=new n().el,s=document.createElement("router-view");this.el.append(e,s,t)}}().el),u();
-//# sourceMappingURL=index.57f50257.js.map
+//# sourceMappingURL=index.d69cc5f8.js.map
